@@ -1,6 +1,7 @@
 import logger from '@wdio/logger'
 import merge from 'lodash.merge'
 import { validateConfig } from '@wdio/config'
+import command from 'remotedriver'
 
 import webdriverMonad from './monad'
 import WebDriverRequest from './request'
