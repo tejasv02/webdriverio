@@ -1,4 +1,4 @@
-import { webdriverMonad } from 'webdriver'
+import { webdriverMonad } from '@wdio/utils'
 import { wrapCommand, runFnInFiberContext } from '@wdio/config'
 import merge from 'lodash.merge'
 
